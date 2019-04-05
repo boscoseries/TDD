@@ -1,0 +1,14 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Johnbosco",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.7.1"
+  }
+}
