@@ -10,8 +10,8 @@ describe("Concatenate Two Strings", function() {
   test("Expect '' and 'xy' to return 'xy'", function() {
     expect(concatTwoStrings('', 'xy')).toEqual('xy');
   })
-  test("Expect '' and '' to return 'undefined'", function() {
-    expect(concatTwoStrings('', '')).toBeUndefined();
+  test("Expect '' and '' to return ''", function() {
+    expect(concatTwoStrings('', '')).toEqual('');
   });
   test("Expect 2 and 'gh' to return 'undefined'", function() {
     expect(concatTwoStrings(2, 'gh')).toBeUndefined();
