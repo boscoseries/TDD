@@ -1,4 +1,4 @@
-module.exports = function addAllNumbers(num) {
+module.exports = function addAllNumbers() {
   total = 0;
 
   for (var i = 0; i < arguments.length; i++) {
