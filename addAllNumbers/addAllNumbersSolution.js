@@ -1,15 +1,15 @@
 module.exports = function addAllNumbers() {
   total = 0;
 
-  for (var i = 0; i < arguments.length; i++) {
-    let num = arguments[i];
+   for (var i = 0; i < arguments.length; i++) {
+     let num = arguments[i];
     if ( Number.parseInt(num) || Number.parseFloat(num) ) {
       total += num
     }
   }
-  if (total >= 0) {
-    return Number(total.toFixed(2))
+  if (total > 0) {
+    return Number(total.toFixed(2));
   } else {
     return NaN
-  }
-}
+   }
+};
