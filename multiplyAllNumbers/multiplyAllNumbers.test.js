@@ -23,5 +23,4 @@ describe("Multiply all numbers in the input", function() {
   test("Expect 1.23, 0.126, 19 and 0.009 to return 20.37", function() {
     expect(multiplyAllNumbers(1.23, 0.126, 19, 0.009)).toEqual(0.027);
   });
-
 });

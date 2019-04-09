@@ -9,6 +9,7 @@
   "author": "Johnbosco",
   "license": "ISC",
   "dependencies": {
-    "jest": "^24.7.1"
+    "jest": "^24.7.1",
+    "node-fetch": "^2.3.0"
   }
 }
