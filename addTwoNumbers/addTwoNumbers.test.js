@@ -14,11 +14,14 @@ describe("Addition of Two Numbers", function () {
     test("Expect 0.915 and 0.11 to return 1.03", function () {
         expect(addTwoNumbers(0.915, 0.11)).toEqual(1.03);
     });
-    test("Expect 'NaN input(s)' to return NaN", function () {
+    test("Expect '@' and 9 to return NaN", function () {
         expect(addTwoNumbers('@', 9)).toBeNaN();
     });
     test("Expect 'Boolean input(s)' to return NaN", function() {
         expect(addTwoNumbers(true, true)).toBeNaN();
+    });
+    test("Expect { 1: 2 } and 5 to return NaN", function() {
+        expect(addTwoNumbers({ 1: 2 }, 5)).toBeNaN();
     });
 
 })
